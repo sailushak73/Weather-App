@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+body{
+   background:linear-gradient(to left,lightgreen,skyblue);
+}
+.card{
+    width:90%;
+    max-width:450px;
+    background:linear-gradient(to right,rgb(228, 131, 147),rgb(235, 95, 142));
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:aliceblue;
+    margin:100px auto 0;
+    padding:15px;
+    border-radius: 30px;
+}
+
+.search{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 25px;
+}
+.search_bar{
+    border:0;
+    outline:0;
+    padding:0 15px;
+    flex:1;
+    height:50px;
+    margin-right: 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color:aliceblue;
+    color:black;
+}
+.search button{
+    border:0;
+    outline:0;
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background-color:aliceblue;
+}
+.icon{
+    width:180px;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 300;
+    margin-top:10px
+}
+.city{
+    font-size: 40px;
+    font-weight: 200;
+    margin-top:-10px
+}
+.features{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:40px;
+    padding:0 30px;
+}
+.hum-icon img{
+    width:60px;
+}
+.hum-icon{
+    display: flex;
+    align-items: center;
+}
+.hum-icon img{
+    margin-right: 15px;
+}
+.hum-icon p{
+    font-size: 20px;
+    font-weight: 150;
+}
+.wind-icon img{
+    width:60px;
+}
+.wind-icon{
+    display: flex;
+    align-items: center;
+}
+.wind-icon p{
+    font-size: 20px;
+    font-weight: 150;
+}
+.wind-icon img{
+    margin-right: 15px;
+}
+
+
